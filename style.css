@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 15;
+    padding: 15;
+}
+
+.titulo {
+    color: #f3b6c0;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu a {
+    
+    color:#f3b6c0;
+    text-decoration: none;
+    padding: 5px ;
+}
+
+#topo a {
+    color: #f3b6c0;
+}
+
+header {
+    text-align: center;
+    background-color: #f5c1c9;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
